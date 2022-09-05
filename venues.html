@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theater.com/Venues</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/venues.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script defer src="./js/venues.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="./Home.html">THE THEATRE SHOW</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav my-sm-2 ml-auto p-1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./Home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href ="#" data-toggle="dropdown">
+                            Catagories
+                        </a>
+                        <ul class="dropdown-menu" id="dropmain">
+                            <li>
+                                <a href="" class="dropdown-item" id="shws">
+                                    Shows
+                                </a>
+                                <ul class="dropdown-menu dropdown-submenu" id="shwsc">
+                                    <li>
+                                        <a class="dropdown-item" href="">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Urdu</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Hindi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./venues.html">Venues</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./awards.html">Awards</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Artist gallery.html">Artist Gallery</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="magzines.html">Magazines</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./queries.html">FAQ's</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container text-center">
+            <h1 class="mhead" style="font-family: clisto; color: white;">
+                VENUES
+            </h1>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck col-12">
+                    <div class="card col-sm-12 col-md-6">
+                        <img src="./images/audi/ACAuditorium1.jpg" alt="Arts Council Auditorium1">
+                    </div>
+                    <div class="card col-sm-12 col-md-6 text-center">
+                        <h2>Arts Council Auditorium 1</h2>
+                        <p>The Arts Council of Pakistan Karachi is a council for the promotion of arts and culture in Pakistan, and one of the busiest in terms of organizing events. It is the country's oldest NGO for the promotion and development of arts and crafts in Pakistan.</p>
+                        <h3>Location</h3>
+                        <div id="map1"></div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck col-12">
+                    <div class="card col-sm-12 col-md-6 text-center">
+                        <h2>Bahria Auditorium</h2>
+                        <p>Bahria Auditorium is one of the busiest in terms of organizing events and Army Confrences. It is the country's best auditorium under army/navy. It has a tight security and is well built for great oraganizations to have a confrence.</p>
+                        <h3>Location</h3>
+                        <div id="map2"></div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6">
+                        <img src="./images/audi/bahria.jpg" alt="Bahria Auditorium">
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck col-12">
+                    <div class="card col-sm-12 col-md-6">
+                        <img src="./images/audi/beruni.webp" alt="Al Beruni Auditorium">
+                    </div>
+                    <div class="card col-sm-12 col-md-6 text-center">
+                        <h2>Al Beruni Auditorium</h2>
+                        <p>Al Beruni Auditorium, serves as a platform to promote various academic, co-cirricular and extra-cirricular activities in BUKC. It also organizes events on 14th August, Pakistan Idependence Day and various other holidays.</p>
+                        <h3>Location</h3>
+                        <div id="map3"></div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck col-12">
+                    <div class="card col-sm-12 col-md-6 text-center">
+                        <h2>IBA Js Auditorium</h2>
+                        <p>IBA JS Aditorium, serves as a platform to promote various academic, co-cirricular and extra-cirricular activities. It also organizes events and activities presented by various companies and organizations.</p>
+                        <h3>Location</h3>
+                        <div id="map4"></div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6">
+                        <img src="./images/audi/iba.jpg" alt="IBA Js Auditorium">
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck col-12">
+                    <div class="card col-sm-12 col-md-6">
+                        <img src="./images/audi/ksbl.jpg" alt="IBA Js Auditorium">
+                    </div>
+                    <div class="card col-sm-12 col-md-6 text-center">
+                        <h2>KSBL Auditorium</h2>
+                        <p>The Karachi School of Business and Leadership is a premier and HEC recognized independent degree awarding business school located in the heart of Karachi, Pakistan, established in 2009, under the charter of Sindh Government of Pakistan, 2012.</p>
+                        <h3>Location</h3>
+                        <div id="map5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row" id="footer">
+          <div class="col-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-9">
+                                <b>Reservations</b>
+                                <p class="mt-3">
+                                    <b>phone</b>: (021) 12345678
+                                    <b>Email</b>: theatershow@example.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-clock" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-9">
+                                <b>Opening Hours</b>
+                                <p class="mt-3">
+                                    <b>Mon-Sat: 9AM </b> - 9PM
+                                    Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <b class="d-block">Follow us</b>
+                        <div class="d-flex mt- ">
+                            <div class="footerround d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="footerround d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="footerround d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">
+                    &copy; Copyright <b>Sheikh Mohsin Ahmed/Samia Dawood/Aqeel</b>. All Right Resevred <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

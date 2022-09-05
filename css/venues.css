@@ -1,0 +1,142 @@
+                    /* Navbar */
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-family: calisto;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    color: white !important;
+    font-size: large;
+}
+.dropdown:hover #dropmain{
+    display: block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu .dropdown-submenu{
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu{
+    background-color: rgba(255, 20, 20, 0.3) !important;
+}
+.dropdown-menu a{
+    color: white;
+}
+                                    /* BODY */
+body{
+    background-image: url(../images/mainbg/hobg4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h2{
+    font-family: Calisto;
+}
+h3{
+    font-family: monoca;
+}
+.card-deck{
+    background: none;
+}
+.card{
+    background: none;
+    border: 1px solid white;
+    border-radius: 10%;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    color: white;
+}
+.card img{
+    border: 0;
+    border-radius: 10%;
+    background: none;
+    height: 475px;
+}
+#map1{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+}
+#map2{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+}
+#map3{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+}
+#map4{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+}
+#map5{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        /* Footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#footer{
+    padding: 50px 0px;
+    color: #f2f2f2;
+}
+.fa-map-marker,.fa-phone,.fa-clock{
+    font-size: 30px;
+}
+.footerround{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid#777;   
+    margin-left: 5px; 
+    transition: all 0.3s;
+}
+.footerround:first-child{   
+    margin-left: 0px; 
+}
+.footerround:hover{ 
+    border: 1px solid white;   
+}
+.copyright{
+    text-align: center;
+}
+.copyright a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #eb1e25;
+}

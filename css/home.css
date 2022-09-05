@@ -1,0 +1,220 @@
+                                    /* Navbar */
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-family: calisto;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    color: white !important;
+    font-size: large;
+}
+.dropdown:hover #dropmain{
+    display: block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu .dropdown-submenu{
+    display: none;
+    position: absolute;
+    left: -160px;
+    top: 0px;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu{
+    background-color: rgba(255, 20, 20, 0.3) !important;
+}
+.dropdown-menu a{
+    color: white;
+}
+                                    /* BODY */
+body{
+    background-image: url(../images/mainbg/hobg4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h2{
+    padding-top: 20px;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    font-family: monaco;
+}
+h2 a:hover{
+    text-decoration: none;
+    color: #3F4E4F;
+}
+h3 a{
+    text-decoration: underline;
+    color: white;
+    font-family: monaco;
+}
+h3 a:hover{
+    text-decoration: underline;
+    color: #3F4E4F;
+}
+body section h1{
+    animation: hed1 0.8s 1 linear;
+}
+@keyframes hed1 {
+    from{
+        transform: scale(0%);
+    }
+    to{
+        transform: scale(100%);
+    }
+}
+                                    /* Current Shows */
+#cpcards{
+    background: none;
+    border-radius: 20px;
+    border: 0;
+    height: fit-content;
+}
+.card video{
+    background: none;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+#cpcards a{
+    color: white;
+}
+                                    /* Upcoming Shows */
+#upacards .col-sm-12{
+    background: none;
+    border-radius: 20px;
+    height: fit-content;
+    width: 100%;
+    border: 0;
+    transition: all 0.4s;
+}
+#upacards .col-sm-12:hover{
+    transform: scale(90%)
+}
+#upacards img{
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+    border: 0;
+    background: none;
+}
+#upucards .col-sm-12{
+    background: none;
+    border-radius: 20px;
+    height: fit-content;
+    width: 100%;
+    border: 0;
+    transition: all 0.4s;
+}
+#upucards .col-sm-12:hover{
+    transform: scale(90%)
+}
+#upucards img{
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+#uphcards .col-sm-12{
+    background: none;
+    border-radius: 20px;
+    height: fit-content;
+    width: 100%;
+    border: 0;
+    transition: all 0.4s;
+}
+#uphcards .col-sm-12:hover{
+    transform: scale(90%);
+}
+#uphcards img{
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+                                    /*Venues */
+#audcards{
+    border-radius: 20px;
+    background: none;
+    height: fit-content;
+    border: 0;
+}
+#audcards img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#audcards:hover img{
+    opacity: 0.7;
+}
+#audcards:hover .middle{
+    opacity: 1;
+}
+.text{
+    background: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.text a{
+    color: black;
+    text-decoration: none;
+    text-decoration: solid;
+}
+                                    /* Footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#footer{
+    padding: 50px 0px;
+    color: #f2f2f2;
+}
+.fa-map-marker,.fa-phone,.fa-clock{
+    font-size: 30px;
+}
+.footerround{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid#777;   
+    margin-left: 5px; 
+    transition: all 0.3s;
+}
+.footerround:first-child{   
+    margin-left: 0px; 
+}
+.footerround:hover{ 
+    border: 1px solid white;   
+}
+.copyright{
+    text-align: center;
+}
+.copyright a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #eb1e25;
+}

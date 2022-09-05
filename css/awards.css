@@ -1,0 +1,106 @@
+                                    /* Navbar */
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-family: calisto;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    color: white !important;
+    font-size: large;
+}
+.dropdown:hover #dropmain{
+    display: block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu .dropdown-submenu{
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu{
+    background-color: rgba(255, 20, 20, 0.3) !important;
+}
+.dropdown-menu a{
+    color: white;
+}
+                                    /* Body */
+body{
+    background-image: url(../images/mainbg/hobg4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#awds h2{
+    color: lightgrey;
+    font-family: monaco;
+    font-size: 50px;
+}
+#awds h3{
+    color: lightgrey;
+    text-decoration: 3px lightcoral underline;
+    font-family: monaco;
+    font-size: 30px;
+}
+#awds li{
+    color: grey;
+    list-style: upper-roman;
+    font-family: calisto;
+    font-size: 20px;
+}
+#awds p{
+    color: lightgrey;
+    font-family: calisto;
+    font-size: 20px;
+}
+#awds h4{
+    color: lightslategrey;
+    font-family: monaco;
+    font-size: 25px;
+}
+                                    /* Footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#footer{
+    padding: 50px 0px;
+    color: #f2f2f2;
+}
+.fa-map-marker,.fa-phone,.fa-clock{
+    font-size: 30px;
+}
+.footerround{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid#777;   
+    margin-left: 5px; 
+    transition: all 0.3s;
+}
+.footerround:first-child{   
+    margin-left: 0px; 
+}
+.footerround:hover{ 
+    border: 1px solid white;   
+}
+.copyright{
+    text-align: center;
+}
+.copyright a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #eb1e25;
+}

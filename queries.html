@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theater.com/Queries</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/queries.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="./Home.html">THE THEATRE SHOW</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav my-sm-2 ml-auto p-1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./Home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href ="#" data-toggle="dropdown">
+                            Catagories
+                        </a>
+                        <ul class="dropdown-menu" id="dropmain">
+                            <li>
+                                <a href="" class="dropdown-item" id="shws">
+                                    Shows
+                                </a>
+                                <ul class="dropdown-menu dropdown-submenu" id="shwsc">
+                                    <li>
+                                        <a class="dropdown-item" href="">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Urdu</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Hindi</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./venues.html">Venues</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./awards.html">Awards</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Artist gallery.html">Artist Gallery</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="magzines.html">Magazines</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./queries.html">FAQ's</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row m-auto text-center">
+                <p>FAQ's</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Q1">
+                  What time do shows start?
+                </button>
+                <div class="collapse" id="Q1">
+                    <div class="card card-body">
+                      All timings for shows are stated with them respectively. Theaters and days are also stated.
+                    </div>
+                </div>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Q2">
+                  What are the locations of the theaters?
+                </button>
+                <div class="collapse" id="Q2">
+                    <div class="card card-body">
+                      You can click on the image of theters to get their brief description and their locations.
+                    </div>
+                </div>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Q3">
+                  Is food accessible from the theater?
+                </button>
+                <div class="collapse" id="Q3">
+                    <div class="card card-body">
+                      Canteens and food stalls will be available before and after the show. However audience are not allowed to spill or littre inside the theater.
+                    </div>
+                </div>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Q4">
+                  Are there any late night shows?
+                </button>
+                <div class="collapse" id="Q4">
+                    <div class="card card-body">
+                        If the show is to be played at night or late after closing time then it would be stated sepratly on the home page.
+                    </div>
+                </div>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Q5">
+                  Are there wheelchairs or a way for elderly people to enter the auditorium?
+                </button>
+                <div class="collapse" id="Q5">
+                    <div class="card card-body">
+                      Highly trained and caretakers are on the door step to help and take care of elderly people on request.
+                    </div>
+                </div>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <p>
+                <button class="btn" type="button" data-toggle="collapse" data-target="#Q6">
+                  Are toilets present near the auditorium, if they are, are they clean?
+                </button>
+                <div class="collapse" id="Q6">
+                    <div class="card card-body">
+                      Toilets are present in the premises, canteen and food court also provide toilets for male/female.
+                    </div>
+                </div>
+            </p>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row" id="footer">
+          <div class="col-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-9">
+                                <b>Reservations</b>
+                                <p class="mt-3">
+                                    <b>phone</b>: (021) 12345678
+                                    <b>Email</b>: theatershow@example.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-clock" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-9">
+                                <b>Opening Hours</b>
+                                <p class="mt-3">
+                                    <b>Mon-Sat: 9AM </b> - 9PM
+                                    Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <b class="d-block">Follow us</b>
+                        <div class="d-flex mt-2 ">
+                            <div class="footerround d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="footerround d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="footerround d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">
+                    &copy; Copyright <b>Sheikh Mohsin Ahmed/Samia Dawood/Aqeel</b>. All Right Resevred <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
